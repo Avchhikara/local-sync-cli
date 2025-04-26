@@ -1,6 +1,6 @@
 {
   "name": "local-sync-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility that helps keep source and destination directory/folder in sync",
   "main": "./dist/app.js",
   "module": "./dist/app.js",
