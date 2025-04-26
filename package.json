@@ -4,6 +4,10 @@
   "description": "Utility that helps keep source and destination directory/folder in sync",
   "main": "./dist/app.js",
   "module": "./dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Avchhikara/local-sync-cli"
+  },
   "files": [
     "dist"
   ],
