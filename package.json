@@ -1,0 +1,33 @@
+{
+  "name": "local-sync",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.2",
+    "commander": "^13.1.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "bin": {
+    "local-sync": "dist/app.js"
+  },
+  "type": "commonjs"
+}
