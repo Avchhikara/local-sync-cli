@@ -1,17 +1,22 @@
 {
-  "name": "local-sync",
+  "name": "local-sync-cli",
   "version": "1.0.0",
   "description": "Utility that helps keep source and destination directory/folder in sync",
   "main": "./dist/app.js",
   "module": "./dist/app.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["local-sync", "sync"],
+  "keywords": [
+    "local-sync-cli",
+    "sync"
+  ],
   "author": "Avnish Parmila Chhikara",
   "license": "ISC",
   "devDependencies": {
@@ -29,7 +34,7 @@
     "winston-daily-rotate-file": "^5.0.0"
   },
   "bin": {
-    "local-sync": "dist/app.js"
+    "local-sync-cli": "dist/app.js"
   },
   "type": "commonjs"
 }
